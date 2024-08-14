@@ -1,5 +1,5 @@
 {% set name = "optics_functions" %}
-{% set version = "0.1.2" %}
+{% set version = "0.1.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/optics_functions-{{ version }}.tar.gz
-  sha256: 40c8f5dac12a45f5b158a276e43bb402d817e58db1f24203181f126fc0fb9f87
+  sha256: 35bda933a7fcc667123ecba1cee7c231fb838b558429ce5f12d2d6127f60ef32
 
 build:
   number: 0
